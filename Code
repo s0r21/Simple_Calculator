@@ -1,0 +1,20 @@
+number = input('Enter First Number ')
+operation = input('Enter Operation ')
+number2 = input('Enter Second Number ')
+
+def calculator(x, y, z):
+    x = int(number)
+    y = operation
+    z = int(number2)
+    if y == '*':
+        return(x * z)
+    elif y == '/':
+        return x / z
+    elif y == '+':
+        return x + z
+    elif y == '-':
+        return x - z
+
+print(calculator(number,
+                 operation,
+                 number2))
